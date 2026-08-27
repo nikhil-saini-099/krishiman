@@ -1,4 +1,5 @@
 idf_component_register(
-    SRCS "spi_driver.c"
+    SRCS "FSM.c"
     INCLUDE_DIRS "include"
+    REQUIRES adc soilsensor
 )

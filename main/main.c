@@ -5,12 +5,9 @@
  */
 
 #include <stdio.h>
-#include <stdint.h>
 
-int main(void)
-{
-  printf("hello") ;
-    
-   
-    // return 0;
+
+
+void app_main(void) {
+        
 }
