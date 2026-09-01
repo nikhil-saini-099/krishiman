@@ -7,6 +7,7 @@
     "--clang-tidy",
     "--compile-commands-dir=${workspaceFolder}/build",
     "--query-driver=C:\\Espressif\\tools\\xtensa-esp-elf\\**\\*.exe"
-  ]
+  ],
+  "idf.flashType": "DFU"
   
 }

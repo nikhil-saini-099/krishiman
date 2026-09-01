@@ -1,5 +1,5 @@
 idf_component_register(
-    SRCS "soilsensor.c"
+    SRCS "HTU21D.c"
     INCLUDE_DIRS "include"
-    REQUIRES adc 
+    REQUIRES  I2C 
 )

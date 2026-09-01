@@ -1,5 +1,5 @@
 idf_component_register(
-    SRCS "FSM.c"
+    SRCS "I2C.c" 
     INCLUDE_DIRS "include"
-    REQUIRES adc soilsensor
+    REQUIRES mcu_config 
 )
